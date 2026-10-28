@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maki | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+
+<section id="home">
+  <div class="avatar"><img src="assets/photo.jpg" alt="Photo of Maki" onerror="this.remove()"></div>
+  <h1>Hi, I'm Maki</h1>
+  <div class="role">BSIT student</div>
+  <p>I build web and database projects at PUP.</p>
+</section>
+
+<section id="about"><div class="wrap">
+  <div class="about-top">
+    <div>
+      <h2>About Me</h2>
+      <p>I'm a BSIT student at the Polytechnic University of the Philippines. Replace this with a short intro about you.</p>
+      <p>Add what you enjoy working on, and what you want to learn next.</p>
+    </div>
+    <svg id="pixel" viewBox="0 0 200 150" aria-hidden="true"></svg>
+  </div>
+
+  <h2 class="title">Skills &amp; Technologies</h2>
+  <div class="grid">
+    <div class="card"><h3>Frontend</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+    <div class="card"><h3>Backend &amp; Database</h3><div class="tags"><span>Java</span><span>MySQL</span></div></div>
+    <div class="card"><h3>Networking</h3><div class="tags"><span>Cisco Packet Tracer</span></div></div>
+  </div>
+
+  <h2 class="title">Experience</h2>
+  <div class="tl">
+    <div class="tl-item"><div class="yr">2025</div><div class="card"><h3>Role title</h3><div class="meta">at organization</div><p>Short description of what you did.</p></div></div>
+    <div class="tl-item"><div class="yr">2024</div><div class="card"><h3>Role title</h3><div class="meta">at organization</div><p>Short description of what you did.</p></div></div>
+  </div>
+
+  <h2 class="title">Certificates</h2>
+  <div class="grid">
+    <div class="card"><h3>Certificate name</h3><small>Issuer, 2025</small><a class="view" href="#">View certificate</a></div>
+    <div class="card"><h3>Certificate name</h3><small>Issuer, 2025</small><a class="view" href="#">View certificate</a></div>
+  </div>
+
+  <h2 class="title">Achievements</h2>
+  <div class="grid">
+    <div class="card"><h3>Achievement title</h3><small>Short description, 2025</small></div>
+  </div>
+
+  <h2 class="title">Projects</h2>
+  <div class="grid">
+    <div class="card"><h3>Student Record Management System</h3><small>Java Swing + MySQL group project</small><a class="view" href="#">View on GitHub</a></div>
+    <div class="card"><h3>Project name</h3><small>What it does</small><a class="view" href="#">View on GitHub</a></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2 class="title">Contact</h2>
+
+  <div class="box">
+    <h3>Contact information</h3>
+    <dl class="info">
+      <dt>Email</dt><dd><a href="mailto:you@email.com">you@email.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+639000000000">+63 900 000 0000</a></dd>
+      <dt>GitHub</dt><dd><a href="https://github.com/your-username">github.com/your-username</a></dd>
+      <dt>Location</dt><dd>Manila, Philippines</dd>
+    </dl>
+  </div>
+
+  <div class="box">
+    <h3>Business card</h3>
+    <div class="card-wrap">
+      <div id="card">
+        <div>
+          <h2>Maki</h2>
+          <div class="role">BSIT student</div>
+          <div class="lines">you@email.com<br>+63 900 000 0000<br>github.com/your-username</div>
+        </div>
+        <div id="qr"></div>
+      </div>
+      <button class="btn" id="dl">Download card as image</button>
+      <p class="hint">Scanning the QR code opens this portfolio.</p>
+    </div>
+  </div>
+</div></section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="script.js"></script>
+</body></html>
