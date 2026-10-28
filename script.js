@@ -12,7 +12,7 @@ if (window.QRCode) {
 document.getElementById("dl").addEventListener("click", async () => {
   const canvas = await html2canvas(document.getElementById("card"), { backgroundColor: "#0b1020", scale: 3 });
   const a = document.createElement("a");
-  a.download = "maki-business-card.png";
+  a.download = "Moralde Business Card.png";
   a.href = canvas.toDataURL("image/png");
   a.click();
 });
